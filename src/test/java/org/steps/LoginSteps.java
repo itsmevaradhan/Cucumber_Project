@@ -45,9 +45,10 @@ public class LoginSteps extends DriverFactory
 		assertEquals(actual, "dashboard");
 	}
 
-	@When("user should see invalid credetial")
-	public void userShouldSeeInvalidCredetial() 
-	{ 	
-	}
+//	@When("user should see invalid credetial")
+//	public void userShouldSeeInvalidCredetial() 
+//	{ 	
+//	}
+//	
 
 }
