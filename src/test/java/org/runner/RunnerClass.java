@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 (
 		features ="src/test/resources/Feature/login.feature",
 		glue= {"org.steps","org.hooks"},
-		dryRun =!true,
+		dryRun =false,
 		snippets =SnippetType.CAMELCASE,
 //		tags = "@knight",
 		plugin = {"pretty","html:report/cucumber -result.html","json:target/cucumber-reports/cucumber.json",
