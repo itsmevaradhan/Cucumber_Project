@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 		dryRun =!true,
 		snippets =SnippetType.CAMELCASE,
 //		tags = "@knight",
-		plugin = {"pretty","html:report/cucumber -result.html",
+		plugin = {"pretty","html:report/cucumber -result.html","json:target/cucumber-reports/cucumber.json",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 
 		)
